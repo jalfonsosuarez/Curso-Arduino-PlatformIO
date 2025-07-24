@@ -14,7 +14,7 @@ const char *password = "Horus.2025";
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP); // Hora verano España
+NTPClient timeClient(ntpUDP);
 
 LiquidCrystal_I2C lcd(LCD_ADDRESS, 16, 2);
 
