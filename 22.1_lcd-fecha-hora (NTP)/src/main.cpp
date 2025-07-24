@@ -45,7 +45,7 @@ void setup()
   timeClient.begin();
 
   lcd.init();
-  lcd.noBacklight();
+  lcd.backlight();
   lcd.clear();
 }
 
@@ -62,7 +62,6 @@ void loop()
   String timeStamp = formattedDate.substring(splitT + 1, formattedDate.length() - 1);
 
   lcd.setCursor(0, 0);
-  lcd.backlight();
   lcd.print(dayStamp + " " + timeStamp);
 
   delay(1000);
