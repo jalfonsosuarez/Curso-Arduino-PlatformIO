@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <NTPClient.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
