@@ -8,8 +8,6 @@ BluetoothSerial serialBT;
 void setup()
 {
   pinMode(LED, OUTPUT);
-  digitalWrite(LED, HIGH);
-  delay(500);
   digitalWrite(LED, LOW);
   Serial.begin(115200);
   serialBT.begin("BT_Alfonso");
