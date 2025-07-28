@@ -1,0 +1,1 @@
+<img src="./img/pinout-L293D.png" alt="Puente H L293D" />
