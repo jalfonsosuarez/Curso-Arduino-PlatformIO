@@ -4,3 +4,4 @@
 
 ### ESP32 pin-out
 <img src="ESP32 Wrover/doc-esp32-wrover-pinout-schema.webp" alt="ESP32 pin out" />
+<img src="ESP32 Wrover/Freenove ESP3232 GPIO Extension Board.jpg" alt="ESP32 pin out" />
