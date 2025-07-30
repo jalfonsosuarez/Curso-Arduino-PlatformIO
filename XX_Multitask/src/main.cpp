@@ -37,3 +37,7 @@ void loop1(void *parameter)
     delay(1000);
   }
 }
+
+void loop()
+{
+}
