@@ -10,6 +10,16 @@ void loop1(void *parameter);
 void setup()
 {
   Serial.begin(115200);
+  /*
+  xTaskCreatePinnedToCore arguments:
+    pvTaskCode .....: A pointer to the task's function (the code that the task will execute).
+    pcName .........: A descriptive name for the task (useful for debugging).
+    usStackDepth ...: The size of the task's stack memory (in words).
+    pvParameters ...: A pointer to parameters that will be passed to the task function.
+    uxPriority .....: The priority of the task (higher numbers mean higher priority).
+    pvCreatedTask ..: A pointer to a variable where the handle of the created task will be stored.
+    xCoreID ........: The core ID to which the task is pinned (0 or 1 for ESP32).
+  */
   xTaskCreatePinnedToCore(loop0, "Tarea_0", 1000, NULL, 1, &Tarea0, 0); // Core 0
   xTaskCreatePinnedToCore(loop1, "Tarea_1", 1000, NULL, 1, &Tarea1, 1); // Core 0
   pinMode(12, OUTPUT);
