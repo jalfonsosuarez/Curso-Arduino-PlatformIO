@@ -1,6 +1,7 @@
 #include <Arduino.h>
 
 // Prueba Multitarea(Hilos)
+// https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/search.html?q=TaskHandle_t&check_keywords=yes&area=default
 TaskHandle_t Tarea0; // Tarea0 parpadeo LED 300 milisegundos
 TaskHandle_t Tarea1; // Tarea1 parpadeo LED 1 Segundo
 
@@ -11,6 +12,7 @@ void setup()
 {
   Serial.begin(115200);
   /*
+  https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/system/freertos.html
   xTaskCreatePinnedToCore arguments:
     pvTaskCode .....: A pointer to the task's function (the code that the task will execute).
     pcName .........: A descriptive name for the task (useful for debugging).
