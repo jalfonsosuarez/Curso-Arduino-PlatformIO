@@ -35,13 +35,15 @@ void readTemperatureTask(void *pvParameters)
 // Tarea 2: Controla el ventilador
 void fanControlTask(void *pvParameters)
 {
-  const float threshold = 25.5; // temperatura umbral
+  const float threshold = 27; // temperatura umbral
 
   while (true)
   {
     xSemaphoreTake(tempMutex, portMAX_DELAY);
     float currentTemp = temperature;
     xSemaphoreGive(tempMutex);
+
+    Serial.println("Temperatura: " + String(currentTemp));
 
     if (currentTemp >= threshold)
     {
