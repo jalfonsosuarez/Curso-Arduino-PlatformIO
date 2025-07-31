@@ -4,7 +4,7 @@
 
 // Pin del DHT22 y del ventilador
 #define DHTPIN 4
-#define DHTTYPE DHT22
+#define DHTTYPE DHT11
 #define FAN_PIN 2
 
 // Objeto DHT
@@ -35,7 +35,7 @@ void readTemperatureTask(void *pvParameters)
 // Tarea 2: Controla el ventilador
 void fanControlTask(void *pvParameters)
 {
-  const float threshold = 30.0; // temperatura umbral
+  const float threshold = 25.5; // temperatura umbral
 
   while (true)
   {
