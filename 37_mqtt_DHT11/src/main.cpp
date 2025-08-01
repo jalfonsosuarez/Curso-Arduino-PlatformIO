@@ -15,6 +15,7 @@ const char *ssid = "Aula 1";
 const char *pwd = "Horus.2025";
 
 //* Conexion con MQTT
+//* http://192.168.0.25:18083/#/websocket (EMQX.com)
 const char *mqtt_server = "192.168.0.25";
 int mqtt_port = 1883;
 
