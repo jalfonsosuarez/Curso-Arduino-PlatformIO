@@ -1,4 +1,4 @@
-# CURSO ARDUINO Y ROBOTICA
+# Curso Arduino y Robótica Junta de Andalucía julio-agosto'25
 
 ## PARTE 2 - ROBOTICA
 
