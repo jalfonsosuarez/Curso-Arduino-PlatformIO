@@ -1,4 +1,4 @@
-# Keyestudio Smart Home Kit with PLUS Board for Arduino DIY STE
+# Keyestudio [Smart Home Kit](https://www.keyestudio.com/products/keyestudio-smart-home-kit-with-plus-board-for-arduino-diy-stem) with PLUS Board for Arduino DIY STE
 
 <img src="images/1754559922386.jpg"  height="200" alt="Smart home photo 1">
 <img src="images/1754559922393.jpg"  height="200" alt="Smart home photo 2">
