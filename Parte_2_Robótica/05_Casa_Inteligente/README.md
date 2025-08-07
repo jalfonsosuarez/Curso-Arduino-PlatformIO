@@ -4,15 +4,11 @@
 <img src="images/1754559922393.jpg"  height="200" alt="Smart home photo 2">
 <img src="images/1754559922397.jpg"  height="200" alt="Smart home photo 2">
 
-## Read Me First
+## Description:
 
-1. Please download all the files needed to run the robot arm, including the driver,
-   codes, libraries, etc: https://fs.keyestudio.com/FKS0003
-2. Technical Support: service@keyestudio.com
-3. What do you need to prepare:
+This Smart Home Learning Kit based on the Arduino platform is newly rolled out by Keyestudio DIY Robot Co. Ltd.
 
-* Six AA batteries or two 18650 batteries
-* A computer with a stable Internet connection
-* We can use the joystick to control the robot arm. But if you want to
-  control it wirelessly, you need to prepare a 2.4 GHz WiFi(It can be a
-  mobile hotspot or a router)
+It simulates the real smart home and demonstrates the cozy and comfortable life for people.
+In fact, the logic programming, an invisible hand, controls everything in smart home: it turns on the air conditioner, boots up the water heater, secures your home with an electronic lock, and sets your LED lights and smart curtains to turn on automatically when you get home. Meanwhile, the intelligent lighting system allows you to create a comfortable, tranquil atmosphere. Everything is finished by a remote control or your own cellphone.
+
+As Bill Gates puts it, “In the near future, a house without a smart home system will be as unfashionable as a home without Internet access today.”
